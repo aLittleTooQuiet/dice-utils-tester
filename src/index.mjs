@@ -9,7 +9,6 @@ const {
 const iterations = process.argv[3] || 10000;
 const dieString = process.argv[2];
 
-// console.log(JSON.stringify(roll(dieString)))
 const rolls = {};
 let r;
 
